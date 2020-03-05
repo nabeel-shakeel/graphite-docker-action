@@ -1,0 +1,17 @@
+name: Spin Graphite Container
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+    run-container:
+        name: Running Container
+        runs-on: ubuntu-latest
+        steps:
+            -name: Run Action
+            uses: nabeel-shakeel/graphite-docker-action@master
+
+            -name: Docker ps Output
+            run: docker ps
