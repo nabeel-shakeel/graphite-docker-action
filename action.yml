@@ -1,0 +1,11 @@
+name: "Graphite"
+description: "Run Docker Container of Graphite"
+author: "Nabeel Shakeel(Nabeel_Shakeel@symantec.com)"
+
+branding:
+  icon: "shield"
+  color: "gray-dark"
+
+runs:
+  using: "docker"
+  image: "docker://graphiteapp/graphite-statsd:latest" 
