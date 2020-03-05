@@ -10,8 +10,8 @@ jobs:
         name: Running Container
         runs-on: ubuntu-latest
         steps:
-            -name: Run Action
-            uses: nabeel-shakeel/graphite-docker-action@master
-
-            -name: Docker ps Output
-            run: docker ps
+            - name: Run Action
+              uses: nabeel-shakeel/graphite-docker-action@master
+            
+            - name: Docker ps Output
+              run: docker ps
