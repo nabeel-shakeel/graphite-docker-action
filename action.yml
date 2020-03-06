@@ -20,4 +20,6 @@ runs:
   using: "docker"
   image: "graphiteapp/graphite-statsd:latest"
   args:
+    - ${{ inputs.--name }}
+    - ${{ input.-d }}
     
