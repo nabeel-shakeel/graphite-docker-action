@@ -6,20 +6,6 @@ branding:
   icon: "shield"
   color: "gray-dark"
 
-inputs:
-  --name:
-    description: 'Container name'
-    required: true
-    default: graphite
-  -d:
-    description: 'Run in backgroud'
-    required: true
-    default: ""
-    
 runs:
   using: "docker"
-  image: "graphiteapp/graphite-statsd:latest"
-  args:
-    - ${{ inputs.--name }}
-    - ${{ input.-d }}
-    
+  image: "Dockerfile"

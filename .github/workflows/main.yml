@@ -14,4 +14,4 @@ jobs:
               uses: nabeel-shakeel/graphite-docker-action@master
             
             - name: Docker ps Output
-              run: docker ps
+              run: docker ps -a
