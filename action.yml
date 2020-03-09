@@ -1,4 +1,4 @@
-name: "Graphite"
+name: "Action-Graphite"
 description: "Run Docker Container of Graphite"
 author: "Nabeel Shakeel(Nabeel_Shakeel@symantec.com)"
 
