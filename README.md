@@ -3,7 +3,9 @@
 A GtiHub action for spins up [Graphite Container](https://hub.docker.com/r/graphiteapp/graphite-statsd).
 
 Graphite & Statsd can be complex to setup. This action will have you running & collecting stats in just a few minutes.
-
+- All Graphite related processes are run as daemons & monitored with runit.
+- Includes additional services such as logrotate, nginx, optional Redis for TagDB and optional collectd instance.
+- Put your custom services under /etc/service directory in Dockerfile and they'll be automatically run by runit. 
 
 Here's an example of using the Action in workflows:
 
