@@ -1,6 +1,6 @@
 # Graphite Container Action
 
-A GtiHub action for spins up [Graphite Container](https://hub.docker.com/r/graphiteapp/graphite-statsd).
+A GitHub action for spins up [Graphite Container](https://hub.docker.com/r/graphiteapp/graphite-statsd).
 
 Graphite & Statsd can be complex to setup. This action will have you running & collecting stats in just a few minutes.
 - All Graphite related processes are run as daemons & monitored with runit.
